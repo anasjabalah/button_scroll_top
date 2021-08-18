@@ -1,0 +1,42 @@
+body{
+    width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btnTop{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+i{
+    color: #fff;
+    font-size: 30px;
+}
+
+.buttontop{
+    display: block;
+    animation: scrol 1s ease-in-out ;
+}
+
+@keyframes scrol {
+    0%{ opacity:0;transform: translateY(40px);}
+    100%{opacity: 1;transform: translateY(0);}
+}
